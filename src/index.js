@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import './scss/main.scss';
+
 import App from './App';
 import { UserProvider } from './context/user.contex';
 import { ProductsProvider } from './context/products.context';
+import { CartProvider } from './context/cart.context';
+
 import reportWebVitals from './reportWebVitals';
+
+import './scss/main.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +17,9 @@ root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <UserProvider>
         <ProductsProvider>
-          <App />
+          <CartProvider>
+            <App />
+          </CartProvider>
         </ProductsProvider>
       </UserProvider>
     </BrowserRouter>
