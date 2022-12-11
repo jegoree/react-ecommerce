@@ -6,6 +6,12 @@ A React e-commerce website that is currently being developed.
 
 Release notes
 
+v 1.1.2
+
+- Added redux-thunk
+- Moved async categories fetch into Redux
+- Added spinner for when loading
+
 V 1.1.1
 
 - Added persist
