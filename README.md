@@ -4,7 +4,9 @@
 
 A React e-commerce website that is currently being developed.
 
-v 1.0.0 released
+Release notes
+
+v 1.0.0
 
 - Minimum viable product
 - Added routing
