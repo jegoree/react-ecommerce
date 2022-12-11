@@ -6,6 +6,15 @@ A React e-commerce website that is currently being developed.
 
 Release notes
 
+V 1.1.1
+
+- Added persist
+- Added support for Redux DevTools
+
+V 1.1.0
+
+- Migrated from context to Redux
+
 v 1.0.0
 
 - Minimum viable product
